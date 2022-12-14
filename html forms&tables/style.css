@@ -1,0 +1,176 @@
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(68, 89, 148);
+      }
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+      }
+
+      label{
+        display: inline-block;
+        
+        
+        width: 100px;
+        text-align: center;
+    }
+    input {
+      display: inline-block;
+      align-items: center;
+    }
+      
+       .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+        color: #111;
+      }    
+
+      form{
+        text-align: center;
+    }
+    #logins{
+        background-color: rgb(118, 175, 170);padding: 10px;
+    }
+    .button{
+        background-color: green;
+        text-decoration: none;
+        border:none;padding: 15px;
+        color: white;
+        cursor: pointer;
+    }
+    #back{
+        border: none;
+        padding: 10px;
+        background-color: green;
+        cursor: pointer;
+        color: white;
+    }
+    #bgimg{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image1.jpg);
+      vertical-align: middle;
+      height: 86vh;
+      display: flex; 
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      background-size: cover;
+      
+    }
+    #content{
+        color: white;text-align: center;justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #content h1{
+      font-size: 80px;
+    }
+    table,th,td{
+        border: 1px solid black;
+    }
+ 
+ 
+    #signup{
+    background-image: url(image3.jpg);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    #signdata{
+        background: rgb(118, 175, 170); 
+        padding: 20px;
+    }
+    #login{
+    background-image: url(image2.jpg);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    #logins{
+      padding: 30px;
+    }
+
+            * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    nav a {
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav {
+        position:fixed;
+        left: 0;
+        z-index: 50;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 87vh;
+        background: var(--secondary-color);
+        background-color: rgb(168, 86, 86);
+        width: 150px;
+    }
+    .icon{
+      float: right;
+    }
+  
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 10px;
+      text-align: center;
+      text-decoration: none;
+      
+      border-radius: 50%;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+      
+      color: white;
+    }
+    .fa-twitter {
+     
+      color: white;
+    }
+    .fa-linkedin {
+      
+      color: white;
+    }
+
+
+    /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 21%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
